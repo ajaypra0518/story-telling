@@ -25,28 +25,28 @@
 
         <form action="story.html"> 
             <label>Animal:</label>
-            <input type="text" value="Tiger" id="animal"><br> <br>
+            <input type="text" placeholder="Tiger" id="animal" required><br> <br>
 
             <label> Another Animal:</label>
-            <input type="text" value="Lion" id="another2"><br> <br>
+            <input type="text" placeholder="Lion" id="another2" required><br> <br>
 
             <label>One More Animal:</label>
-            <input type="text" value="Dog" id="moreanimal"><br> <br>
+            <input type="text" placeholder="Dog" id="moreanimal" required><br> <br>
 
             <label>Adjective(past tesnse):</label>
-            <input type="text" value="alarmed" id="alarmed"><br> <br>
+            <input type="text" placeholder="alarmed" id="alarmed" required><br> <br>
 
             <label>Verbs(ends in -ing):</label>
-            <input type="text" value="running" id="ing"><br> <br>
+            <input type="text" placeholder="running" id="ing" required><br> <br>
 
             <label>Number:</label>
-            <input type="text" value="2" id="num"><br> <br>
+            <input type="number" placeholder="2" id="num" required><br> <br>
 
             <label>Yes or NO:</label>
             <label class="move">No:</label>
             <input type="radio" id="male" name="gender" value="No">
             <label  class="move">Yes:</label>
-            <input type="radio" id="female" name="gender" value="Yes"> <br> <br>
+            <input type="radio" id="female" name="gender" value="Yes" required> <br> <br>
 
             <label>Relative speed(ens in -er</label>
             <select id="selection"  class="move">
@@ -55,10 +55,10 @@
             </select> <br> <br>
 
             <label>Motivational Quote:</label>
-            <input type="text" id="mquote"  value="example"><br> <br>
+            <input type="text" id="mquote"  placeholder="example" required><br> <br>
 
             <label>Meaningful Message:</label> <br> <br>
-            <textarea  rows="5"  id="txtarea"  class="move"></textarea> <br> <br>
+            <textarea  rows="5"  id="txtarea"  class="move" required></textarea > <br> <br>
 
          
             <button class="btn" onclick="myfunction()">Form My Story</button>

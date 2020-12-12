@@ -36,10 +36,7 @@ function myfunction(){
         var p = document.getElementById('female').value;
         localStorage.setItem("item7",p);
       }
-      else{
-          var p="Yes"
-          localStorage.setItem("item7",p);
-      }
+    
 
 
       var q = document.getElementById("selection").value;

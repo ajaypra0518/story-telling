@@ -35,10 +35,7 @@ form{
     color: rgb(158, 9, 34);
 }
 
-.container1 form {
-    /* text-align: center; */
 
-}
 form input{
     float: right;
 }
@@ -109,3 +106,14 @@ input[type=text]{
     color: rgb(158, 9, 34);
  
 }
+
+ /* for making input type only number */
+ input[type=number]::-webkit-inner-spin-button,
+ input[type=number]::-webkit-outer-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
+  /* for mozzila */
+ input[type=number] {
+     -moz-appearance: textfield;
+ } 
